@@ -15,7 +15,7 @@ const Form = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     console.log('You made a request');
-    let response = await axios.post("http://localhost:4000/api/cars/addcar", inputs); 
+    let response = await axios.post("https://updated-backendcarbike.onrender.com/api/cars/addcar", inputs); 
     console.log(response);
 
     // let data =  await axios.get("http://localhost:4000/",inputs);

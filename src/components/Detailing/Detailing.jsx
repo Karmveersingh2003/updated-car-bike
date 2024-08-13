@@ -55,7 +55,7 @@ const carData = [
   
     const getCarsHandler = async () => {
       try {
-        const response = await axios.get(`http://localhost:4000/api/cars/${car_id}`);
+        const response = await axios.get(`https://updated-backendcarbike.onrender.com/api/cars/${car_id}`);
         console.log(response);
         setCars(response.data.cars);
       } catch (error) {

@@ -16,7 +16,7 @@ const Contact = () => {
       event.preventDefault();
       try {
         console.log('You made a request');
-        let response = await axios.post("http://localhost:4000/api/contact/addcontact", inputs);
+        let response = await axios.post("https://updated-backendcarbike.onrender.com/api/contact/addcontact", inputs);
         console.log(response);
       } catch (error) {
         console.error('There was an error!', error);

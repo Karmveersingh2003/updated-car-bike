@@ -44,7 +44,7 @@ export default function Home() {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:4000/api/cars')
+    axios.get('https://updated-backendcarbike.onrender.com/api/cars')
       .then(response => {
         console.log(response.data); // Log the fetched data
         setCars(response.data);
