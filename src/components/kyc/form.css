@@ -1,0 +1,21 @@
+#country-dropdown{
+    display: flex;
+    margin-top: 50px;
+}
+
+#city-dropdown{
+    display: flex;
+    margin-top: -20px;
+}
+#city-label{
+    margin-right: 10px;
+}
+#country-label{
+    margin-right: 10px;
+}
+#error{
+    margin-top: 60px;
+}
+#submit-form{
+    margin-top: 60px;
+}

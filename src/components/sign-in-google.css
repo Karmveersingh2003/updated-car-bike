@@ -1,0 +1,52 @@
+#continue-p {
+  padding-left: 10%;
+  margin-top: 10px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.or {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+#or_facebook h3 {
+  padding-left: 46%;
+  color: rgb(83, 80, 80);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #continue-p {
+    padding-left: 5%;
+  }
+
+  #or_facebook h3 {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  #continue-p {
+    padding-left: 2%;
+  }
+
+  #or_facebook h3 {
+    padding-left: 2%;
+    font-size: 1em; 
+  }
+
+  .or {
+    margin: 0 5px;
+  }
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#nav_rentals {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    background-size: cover;
+    background: url('./Car2.jpg');
+}
+
+@media (max-width: 1200px) {
+    #nav_rentals {
+        height: 280px;
+        padding: 20px 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    #nav_rentals {
+        height: 240px;
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    #nav_rentals {
+        height: 200px;
+        padding: 20px 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    #nav_rentals {
+        height: 180px;
+        padding: 10px 20px;
+    }
+}
+
+
+.logo_nav{
+    font-size: 2em;
+    color: #ffffff;
+    user-select: none;
+   
+}
+/* .logo img{
+    height: 150px;
+   width:150px;
+   margin-top: -50px;
+} */
+.navigations a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigations a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigations a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+@media (max-width: 1200px) {
+    .navigations a {
+        font-size: 1em;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navigations a {
+        font-size: 0.9em;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigations a {
+        font-size: 0.8em;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navigations a {
+        font-size: 0.7em;
+        margin-left: 10px;
+    }
+}
+
+.bthLogin-popups {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.bthLogin-popups:hover {
+    background: #ffffff;
+    color: #162938;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .bthLogin-popups {
+        width: 120px;
+        height: 45px;
+        font-size: 1em;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bthLogin-popups {
+        width: 110px;
+        height: 40px;
+        font-size: 0.9em;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bthLogin-popups {
+        width: 100px;
+        height: 35px;
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .bthLogin-popups {
+        width: 90px;
+        height: 30px;
+        font-size: 0.7em;
+        margin-left: 5px;
+    }
+}

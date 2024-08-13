@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#login-sing {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px; /* Added padding for better spacing on smaller screens */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Ensures the background does not repeat */
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+@media (max-width: 768px) {
+  #login-sing {
+    padding: 10px; /* Adjust padding for smaller screens */
+    background-size: contain; /* Adjust background size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #login-sing {
+    padding: 5px; /* Further adjust padding for very small screens */
+    flex-direction: column; /* Stack content vertically on very small screens */
+  }
+}
+
+
+.wrapperr {
+  width: 90%; /* Make the width percentage based for responsiveness */
+  max-width: 420px; /* Ensure it doesn't exceed the original width */
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(40px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #000000;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: 80px auto; /* Center the wrapper horizontally */
+}
+
+.wrapperr h1 {
+  font-size: 5vw; /* Use viewport width for responsiveness */
+  text-align: center;
+}
+
+.wrapperr h3 {
+  font-weight: bolder;
+}
+
+.wrapperr .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .wrapperr {
+    padding: 20px 30px; /* Adjust padding for smaller screens */
+    margin-top: 60px;
+  }
+
+  .wrapperr h1 {
+    font-size: 6vw; /* Increase font size on smaller screens */
+  }
+}
+
+/* Media queries for very small screens */
+@media (max-width: 480px) {
+  .wrapperr {
+    padding: 15px 20px; /* Further adjust padding */
+    margin-top: 40px;
+  }
+
+  .wrapperr h1 {
+    font-size: 7vw; /* Further increase font size */
+  }
+}
+.input-box {
+  position: relative;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #000000;
+  padding: 20px 45px 20px 20px;
+  outline: none;
+  box-sizing: border-box; /* Ensures padding is included in width/height */
+}
+
+.input-box input::placeholder {
+  color: #000000;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .input-box input {
+    font-size: 14px;
+    padding: 15px 35px 15px 15px;
+    border-radius: 30px;
+  }
+
+  .input-box .icon {
+    right: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-box input {
+    font-size: 12px;
+    padding: 10px 30px 10px 10px;
+    border-radius: 20px;
+  }
+
+  .input-box .icon {
+    right: 10px;
+    font-size: 12px;
+  }
+}
+
+
+.remember-forgot label input {
+  accent-color: #000000;
+  margin-right: 4px;
+  margin-top: 10px;
+}
+
+.remember-forgot a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+  
+}.wrapperr .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.wrapperr button {
+  width: 100%;
+  height: 45px;
+  background: #dd3f1f;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff6f6;
+  font-weight: 700;
+}
+
+.wrapperr .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .wrapperr .remember-forgot {
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+  }
+
+  .wrapperr button {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .wrapperr .register-link {
+    font-size: 13px;
+    margin: 15px 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapperr .remember-forgot {
+    font-size: 12px;
+  }
+
+  .wrapperr button {
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .wrapperr .register-link {
+    font-size: 12px;
+    margin: 10px 0 5px;
+  }
+}
+/* Base styles */
+.register-link p a {
+  font-weight: 600;
+  color: #f38e46;
+  padding-left: 50px;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+.register-link {
+  display: flex;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .register-link p a {
+    padding-left: 20px;
+  }
+
+  .register-link {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-link p a {
+    padding-left: 10px;
+  }
+
+  .register-link {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+#forgot {
+  margin-left: 10%; /* Adjusted to a relative unit */
+  padding: 5px;
+  list-style: none;
+}
+
+#create_an_acc {
+  padding-top: 3vh; /* This is already responsive */
+}
+#create_an_acc p{
+  margin-left: 35px;
+
+}
+
+#create_an_acc p a {
+  font-weight: 600;
+  color: #f38e46;
+}
+
+/* Media Queries for different screen sizes */
+
+/* For small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #forgot {
+    margin-left: 5%; /* Less margin for smaller screens */
+  }
+
+  #create_an_acc {
+    padding-top: 2vh; /* Adjust padding for smaller screens */
+  }
+}
+
+/* For medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  #forgot {
+    margin-left: 8%;
+  }
+
+  #create_an_acc {
+    padding-top: 2.5vh;
+  }
+}
+
+/* For large devices (desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #forgot {
+    margin-left: 10%;
+  }
+
+  #create_an_acc {
+    padding-top: 3vh;
+  }
+}

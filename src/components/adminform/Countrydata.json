@@ -1,0 +1,83 @@
+[
+    {"country_id":"1","sortname":"AF","country_name":"CAR","states":[
+     {"state_id":"42","state_name":"Economy Cars","country_id":"1"},
+     {"state_id":"42","state_name":"Standard/Intermediate Cars","country_id":"1"},
+     {"state_id":"42","state_name":"Luxury Cars","country_id":"1"},
+     {"state_id":"42","state_name":"SUVs Cars","country_id":"1"},
+     {"state_id":"42","state_name":"Minivans Cars","country_id":"1"},
+     {"state_id":"42","state_name":"Electric Cars","country_id":"1"},
+     {"state_id":"42","state_name":"Hybrid Cars","country_id":"1"},
+     {"state_id":"42","state_name":"pickup trucks","country_id":"1"}
+    ],"Brands":[
+        {"Brand_id":"42","Brand_name":"Maruti Suzuki","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Hyundai","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Tata Motors","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Mahindra","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Kia Motors","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Honda Cars","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Toyota Kirloskar Motor Cars","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Ford India","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Renault India","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Volkswagen","country_id":"1"}
+    ],"Seats":[
+        {"seat_id":"4","seat_name":"2 Seater","country_id":"1"},
+        {"seat_id":"4","seat_name":"4 Seater","country_id":"1"},
+        {"seat_id":"4","seat_name":"6 Seater","country_id":"1"}
+    ],"Fuels":[
+        {"Fuel_id":"4","Fuel_name":"Petrol","country_id":"1"},
+        {"Fuel_id":"4","Fuel_name":"Deisel","country_id":"1"},
+        {"Fuel_id":"4","Fuel_name":"CNG","country_id":"1"}
+    ]
+},
+
+    {"country_id":"2","sortname":"AL","country_name":"BIKE","states":[
+     {"state_id":"74","state_name":"Standard Bike","country_id":"2"},
+     {"state_id":"74","state_name":"Electric Bike","country_id":"2"},
+     {"state_id":"74","state_name":"Hybrid Bike","country_id":"2"},
+     {"state_id":"74","state_name":"Sports Bike","country_id":"2"},
+     {"state_id":"74","state_name":"Road Bike","country_id":"2"},
+     {"state_id":"74","state_name":"Off-Road Bike","country_id":"2"},
+     {"state_id":"74","state_name":" Adventure Bike","country_id":"2"},
+     {"state_id":"74","state_name":"Mountain Bike","country_id":"2"}
+     ]
+     ,"Brands":[
+        {"Brand_id":"42","Brand_name":" Hero MotoCorp","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Bajaj Auto","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"TVS Motor ","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Royal Enfield","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Honda Motorcycle","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Yamaha Motor","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"Suzuki","country_id":"1"},
+     {"Brand_id":"42","Brand_name":"KTM India","country_id":"1"}
+    ],"Seats":[
+        {"seat_id":"8","seat_name":"2 Seater","country_id":"1"}
+      
+    ],"Fuels":[
+        {"Fuel_id":"9","Fuel_name":"Petrol","country_id":"1"}
+    ]
+    
+    },
+
+    {"country_id":"3","sortname":"AL","country_name":"SCOOTY","states":[
+        {"state_id":"74","state_name":"Standard Scooty","country_id":"3"},
+        {"state_id":"74","state_name":"Electric Scooty","country_id":"3"},
+        {"state_id":"74","state_name":"Hybrid Scooty","country_id":"3"},
+        {"state_id":"74","state_name":"Off-Road Scooty","country_id":"3"},
+        {"state_id":"74","state_name":"Moped Scooty","country_id":"3"}
+]
+,"Brands":[
+    {"Brand_id":"42","Brand_name":"Hero ","country_id":"1"},
+ {"Brand_id":"42","Brand_name":"Bajaj","country_id":"1"},
+ {"Brand_id":"42","Brand_name":"TVS","country_id":"1"},
+ {"Brand_id":"42","Brand_name":"Honda","country_id":"1"},
+ {"Brand_id":"42","Brand_name":"Suzuki ","country_id":"1"}
+],"Seats":[
+    {"seat_id":"4","seat_name":"2 Seater","country_id":"1"}
+  
+],"Fuels":[
+    {"Fuel_id":"4","Fuel_name":"Petrol","country_id":"1"}
+]
+}
+]
+
+    

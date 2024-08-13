@@ -1,0 +1,10 @@
+#have_account {
+    padding-top: 3vh;
+    padding-left: 4.5vh;
+}
+
+#have_account p a {
+
+    font-weight: 600;
+    color: #f38e46;
+}

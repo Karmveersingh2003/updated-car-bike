@@ -1,0 +1,284 @@
+#Detailing_main{
+text-decoration: none;
+
+}
+#Detailing_main{
+  padding:0px 150px 0px 150px  ;
+  padding-top: 50px;
+}
+
+#detailing_header {
+  margin-top: 30px;
+   margin-bottom: 30px;
+ }
+ 
+ #detailing_header h1 {
+   font-size: 2.5em;
+   color: #333;
+   font-weight: bolder;
+
+ }
+ #detailing_btn_flex{
+  display: flex;
+ }
+ #detailing_header p {
+   color: #53b61d;
+   font-weight: bolder;
+  
+ }
+ #Detailing_btn{
+  display: flex;
+ 
+ }
+ #detailing_price {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1cae14;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  height: 50px;
+  position: relative;
+  right:-363%;
+  margin-top: 6vh;
+  font-weight: bolder;
+}
+#main_img_car_big img{
+  width: 820px;
+}
+#car_img_gridss{
+  display: flex;
+}
+.car_img_grid img{
+height: 130px;
+width: 156px;
+margin: 25px 10px 50px 0px;
+
+}
+#main_Details_specifications{
+  display: flex;
+ gap: 15px;
+
+}
+
+.Detailing_specifications_p p{
+  color: #626060a2;
+  text-decoration: underline;
+}
+.Detailing_specifications_h6 h6{
+  
+  font-weight: bold;
+}
+#specifications_flex{
+  display: flex;
+  gap: 125px;
+  padding-bottom: 6vh;
+box-shadow: 0 6px 2px -2px rgb(0, 0, 0); 
+}
+#main_features_specifications{
+  display: flex;
+ gap: 15px;
+
+}
+#features_main_flex{
+  display: flex;
+  gap: 60px;
+  padding-bottom: 5vh;
+  box-shadow: 0 6px 2px -2px rgb(0, 0, 0); 
+}
+#Feature_h3_heading h3{
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+ padding-top: 5vh;
+ padding-bottom: 2vh;
+}
+#seller_h3_heading h3{
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+ padding-top: 5vh;
+ padding-bottom: 2vh;
+}
+#seller_h3_heading p{
+  color: #626060a2;
+  
+}
+#mobile_num{
+  display: flex;
+}
+#mobile_num h6{
+  font-weight: bolder;
+}
+#chat_whastapp img{
+  width: 200px;
+  height: 180px;
+  padding-left: 20px;
+}
+#chat_whastapp1 img{
+  width: 150px;
+  height: 50px;
+}
+#mn_united_heading p{
+font-size: small;
+font-weight: bolder;
+padding-top: 5px;
+}
+#new_flatbush_flex{
+  display: flex;
+}
+#flat_bush_logo img{
+  width: 150px;
+  height: 100px;
+  margin-top: -19px;
+}
+
+#detailing_location{
+  display: flex;
+  gap: 15px;
+  padding-top: 3%;
+  
+}
+#lower_flat_bush{
+
+  box-shadow: 5px -10px 0px -5px #000000;
+}
+#seller_shadow{
+  box-shadow: 0 0px 2px 0px rgba(0, 0, 0, 0.26); 
+  padding: 20px;
+  padding-left: 60px;
+  margin-left: 10px;
+}
+#lowerbush_message_flex{
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  padding-top: 3%;
+  background-color: #aabacc21;
+  padding-bottom: 10vh;
+}
+#message_to_dealer {
+height: 150px;
+width: 800px;
+}
+#message_to_dealer_heading h3{
+font-weight: bolder;
+font-size: medium;
+}
+#name_email_phone{
+display: flex;
+gap: 15px;
+font-weight: bolder;
+}
+#accept_policies{
+  display: flex;
+  gap: 15px;
+  padding-top: 3%;
+}
+#accept_policies p{
+  color: rgba(58, 121, 239, 0.83);
+ margin-left: -10px;
+}
+#accept_policies input{
+  margin-top: -15px;
+}
+#send_message_btn_detailing {
+  background-color: #1cd647;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  height: 50px;
+  border: none;
+  width: 130px;
+  cursor: pointer;
+}
+
+
+#similar_things_heading{
+padding: 15px 0px 10px 10px; 
+box-shadow: 0 6px 2px -2px rgb(0, 0, 0); 
+font-size: medium;
+}
+#Similar_listing_img{
+display: flex;
+padding-top: 15px;
+padding-left: 15px;
+
+}
+#similar_listing_cardetails{
+padding-left: 15px;
+}
+#similar_listing_cardetails p{
+color: rgba(128, 128, 128, 0.585);
+}
+#similar_listing_cardetails button{
+background-color: #38ce5be9;
+color: whitesmoke;
+font-weight: bolder;
+border: none;
+}
+#similar_listing_buttondetails{
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+.car-listing {
+font-family: Arial, sans-serif;
+padding-top: 30px;
+}
+
+.search-results {
+font-size: 1.2em;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+.car-cards {
+display: flex;
+gap: 20px;
+overflow-x: scroll;
+}
+
+.car-card {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+width: 250px;
+min-width: 250px;
+position: relative;
+}
+
+.car-image {
+width: 100%;
+height: 150px;
+object-fit: cover;
+}
+
+.car-info {
+padding: 10px;
+}
+
+.car-info h3 {
+margin: 10px 0;
+font-size: 1em;
+}
+
+.original-price {
+text-decoration: line-through;
+color: gray;
+}
+
+.discount-price {
+color: green;
+font-weight: bold;
+}

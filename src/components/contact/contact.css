@@ -1,0 +1,171 @@
+#contact_all_flex {
+    display: flex;
+
+}
+
+.contact_address_hours_flex {
+    display: flex;
+}
+
+#Contact_us {
+    width: 910px;
+  
+    padding: 10px;
+    justify-content: center;
+    background-color: #ababab1f;
+}
+
+#Contact_us h1 {
+padding-top: 130px;
+    font-size: 40px;
+    margin-left: 220px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+    #Contact_us {
+        width: 100%;
+        max-width: 910px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: #ababab1f;
+    }
+    
+    #Contact_us h1 {
+        padding-top: 10%;
+        font-size: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 760px) {
+    #Contact_us {
+        width: 100%;
+        max-width: 910px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: #ababab1f;
+    }
+    
+    #Contact_us h1 {
+        padding-top: 10%;
+        font-size: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+    }
+}
+
+
+.contact_address_hours_flex h6 {
+    font-weight: bolder;
+    font-size: 18px;
+    justify-items: center;
+    margin-left: 170px;
+}
+
+.contact_address_hours_flex p {
+    color: #818181;
+}
+
+#Drop_us_div {
+    padding: 20px;
+    background-color: #ababab1f;
+}
+
+#Drop_us_div h1 {
+    padding-left: 180px;
+    margin: 30px;
+    padding-bottom: 40px;
+}
+
+#name_email_phone_contactus {
+    display: flex;
+    gap: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+
+#name_email_phone_contactus input {
+    border-color: #a4a4a424;
+    padding: 10px;
+    width: 300px;
+}
+
+#message_to_dealer_contactus {
+    height: 150px;
+    width: 615px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-color: #a4a4a43a;
+    margin-bottom: 30px;
+}
+
+
+#send_message_btn_contactus {
+    background-color: #d61c1c;
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+    border: none;
+    width: 130px;
+    cursor: pointer;
+    margin-left: 250px;
+
+}
+
+#drop_us_map_contact {
+    display: flex;
+}
+
+
+@media (max-width: 768px) {
+    .contact_address_hours_flex h6 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #Drop_us_div h1 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #name_email_phone_contactus {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    #send_message_btn_contactus {
+        margin-left: 0;
+        margin-right: 0;
+        align-self: center;
+    }
+
+    #drop_us_map_contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #message_to_dealer_contactus {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #name_email_phone_contactus input {
+        flex: 1 1 100%;
+    }
+}
+
+
+
+
+
+
+
+
